@@ -1,0 +1,40 @@
+*{
+    padding:0px;
+    margin:0px;
+    text-decoration: none;
+}
+header 
+{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+}
+header nav a 
+{
+    margin: 20px;
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+}
+.container 
+{
+    width:80%;
+    height:90vh;
+    
+    margin: 0px auto;
+}
+#goAfter, #goBefore{
+    margin:0px 50px;
+    cursor:pointer;
+    border:1px solid #ccc;
+    padding:20px;
+} 
+#goBefore:hover{
+    background-color:#181818;
+    color:white
+}
+#goAfter:hover{
+    background-color:#181818;
+    color:white
+} 
